@@ -10,6 +10,11 @@
   strong {
     border: 1px solid red;
   }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
 </style>
 
 <body>
@@ -32,9 +37,24 @@
   :블록과 인라인요소의 특징 모두 가지고 있는 요소
   img: 이미지 생성
   -->
+  <!-- 
+  웹 접근성: 정보통신접근성 (Web 접근성)은 「지능정보화기본법」에 따라 장애인이나 고령자분들이 웹 사이트에서 제공하는 정보를 비장애인과 동등하게 접근하고 이용 할 수 있도록 보장하는 것으로 웹 접근성 준수는 법적의무사항 입니다.
+  -->
 
   <p><strong>학교</strong> 종이 <em>떙땡땡</em> 어서모이자. <a href="https://www.naver.com" target="_blank"
       title="강사 소개 페이지로 이동">선생님</a>이 우리를 <span>기다리신다.</span></p>
+
+  <!-- img:요소 / src, alt : 요소명이 필요한 속성 -->
+  <!-- 
+  실무에서 자주쓰는 대표적인 파일명 convention
+  camel case : 두개의 단어로 조합하는 파일명일때 두번째 단어의 첫 글자만 대문자로 표기 (picUser.jpg)
+  snake case : 두개의 언더바로 이어붙이는 표기법법 (pic_user.jpg)
+
+  경로 설정법
+  상대 경로: 현재 작성하는 문서파일의 위치에 따른 상대적인 경로
+  절대 경로: 현재 작성파일 위치 상관없이 무조건 루트 경로에서 찾는 경로 
+   -->
+  <img src="img/picUser01.jpg" alt="강사의 프로필 이미지" />
 
 </body>
 
