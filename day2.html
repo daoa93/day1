@@ -9,11 +9,20 @@
 <style>
   strong {
     border: 1px solid red;
+    width: 300px;
   }
 
   a {
     text-decoration: none;
     color: inherit;
+  }
+
+  img {
+    /* 
+     width, height 둘 중에 하나만 수정해야한다.
+    -> 비율 유지하기 위함
+     */
+    width: 100px;
   }
 </style>
 
@@ -55,6 +64,13 @@
   절대 경로: 현재 작성파일 위치 상관없이 무조건 루트 경로에서 찾는 경로 
    -->
   <img src="img/picUser01.jpg" alt="강사의 프로필 이미지" />
+
+  <!-- 
+  inline-block 요소 특징
+  1. 요소 자신의 크기만 할당 (inline)
+  2. 너비, 높이 지정 가능 (block)
+  3. 줄바꿈 안됨 (inline)
+   -->
 
 </body>
 
